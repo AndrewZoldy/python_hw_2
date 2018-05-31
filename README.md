@@ -6,12 +6,16 @@ Script parses your .fasta file and looks for k-mers.
 It will show you an table of each k-mer info (sequence, indexes and id of record)
 
 Given script requires path to input file, you have to define it with **-i** (**--input**) argument:
--i /path/to/your/fasta_file.fasta
---input /path/to/your/fasta_file.fasta
+
+*-i /path/to/your/fasta_file.fasta*
+
+*--input /path/to/your/fasta_file.fasta*
 
 You can switch k-mer size as you wish, for this task use **-s** (**--size**) argument:
--s 15
---size 15
+
+*-s 15*
+
+*--size 15*
 
 !By default -s argument has value = 23.
 
